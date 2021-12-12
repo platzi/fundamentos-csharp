@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ricar\\source\\repos\\squareArea\\squareArea\\squareArea.csproj": {}
+    "C:\\Users\\Carlos\\source\\repos\\fundamentos-csharp\\squareArea\\squareArea\\squareArea.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ricar\\source\\repos\\squareArea\\squareArea\\squareArea.csproj": {
+    "C:\\Users\\Carlos\\source\\repos\\fundamentos-csharp\\squareArea\\squareArea\\squareArea.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricar\\source\\repos\\squareArea\\squareArea\\squareArea.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos\\source\\repos\\fundamentos-csharp\\squareArea\\squareArea\\squareArea.csproj",
         "projectName": "squareArea",
-        "projectPath": "C:\\Users\\ricar\\source\\repos\\squareArea\\squareArea\\squareArea.csproj",
-        "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricar\\source\\repos\\squareArea\\squareArea\\obj\\",
+        "projectPath": "C:\\Users\\Carlos\\source\\repos\\fundamentos-csharp\\squareArea\\squareArea\\squareArea.csproj",
+        "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos\\source\\repos\\fundamentos-csharp\\squareArea\\squareArea\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

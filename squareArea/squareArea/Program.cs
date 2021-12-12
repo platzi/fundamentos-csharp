@@ -6,20 +6,20 @@ namespace squareArea
     {
         static void Main(string[] args)
         {
-            //rectangle area cal.
-            Console.WriteLine("Please enter the side A of the rectangle, you can use decimals");
-            float sideA = float.Parse(Console.ReadLine());
+            //rectangle area calc.
 
-            Console.WriteLine("Please enter the side B of the rectangle, you can use decimals");
-            float sideB = float.Parse(Console.ReadLine());
             //rectangle values
-
-
-            // rectangle area formula is a*b
+            float sideA = 10.0f;
+            int sideB = 1;
+            sideB++;
+            sideB++;
+            sideB++;
+            sideB--;
+            //rectangle area formula is a*b
             float area = sideA * sideB;
-            
-       
-            Console.WriteLine(" The rectangle area is: " + area);
+
+
+            Console.WriteLine("The rectangle area: " + area);
 
         }
     }
