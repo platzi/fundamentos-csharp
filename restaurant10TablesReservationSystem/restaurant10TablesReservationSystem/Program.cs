@@ -16,8 +16,13 @@ namespace restaurant10TablesReservationSystem
             bool userType;
 
             Console.WriteLine("Welcome to the best restaurant in the world!");
-            while(true)
+            while(arrayCurrentIndex < 10)
             {
+                if (arrayCurrentIndex == 10)
+                {
+                    Console.WriteLine("The restaurant is full, try again next year");
+                    Environment.Exit(0);
+                }
                 Console.WriteLine("\n \n Are you a registered user? Write true, or write false to register");
                 userType = Convert.ToBoolean(Console.ReadLine());
                 if (userType == true)
@@ -25,6 +30,23 @@ namespace restaurant10TablesReservationSystem
                     Console.WriteLine("Hello, you are a registered user, please enter your exact user name");
                     string userToSearch = Console.ReadLine();
                     Console.WriteLine("The user you searched is  {0}", userToSearch);
+                    int index = Array.IndexOf(userNames, userToSearch);
+                    if (index == -1)
+                    {
+                        Console.WriteLine("User not found, try again or register");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Welcome {0}, it's a pleasure to give you food", userNames[index]);
+                    }
+                }
+                else if (userType == false)
+                {
+                    Console.WriteLine("Please write and remember your User Name");
+                    userNames[arrayCurrentIndex] = Console.ReadLine();
+                    Console.WriteLine("Your User Has been saved successfully\n" +
+                        "Your User Name is> {0}", userNames[arrayCurrentIndex]);
+                    arrayCurrentIndex++;
                 }
             }
         }
